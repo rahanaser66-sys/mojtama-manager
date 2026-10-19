@@ -18,7 +18,7 @@ jobs:
       - name: Extract Android project
         run: |
           mkdir -p android-project
-          unzip -o MojtamaAndroid.zip -d android-project
+          unzip -o "MojtamaAndroid_Logo (3).zip" -d android-project
           test -f android-project/app/build.gradle.kts
 
       - name: Set up Java 17
